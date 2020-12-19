@@ -74,6 +74,7 @@ const nav_bg_image=document.querySelector('.nav-bg img');
     
     el.addEventListener('mouseleave',(e)=>{
       nav_bg_image.style.opacity=0;
+      nav_bg_image.src=``;	
       el.style.color='rgba(245, 245, 245, 0.85)';
     })
   
