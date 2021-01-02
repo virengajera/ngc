@@ -371,7 +371,7 @@ header{
     transition: all 0.3s;
 }
 
-.wide-area-img-container:hover{
+.wide-card-area-container:hover .wide-area-img-container img{
     transform: scale(1.1);
 }
 .wide-area-img-container::after{
