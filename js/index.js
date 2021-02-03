@@ -13,26 +13,51 @@ new Glider(document.querySelector('.glider'), {
     },
     responsive: [
       {
-        // screens greater than >= 775px
-        breakpoint: 775,
+        // screens greater than >= 700px
+        breakpoint: 700,
         settings: {
           // Set to `auto` and provide item width to adjust to viewport
           slidesToShow: 'auto',
           slidesToScroll: 'auto',
           itemWidth: 150,
           duration: 0.25,
-          slidesToShow: 3.5
+          slidesToShow: 2.5
         }
       },{
         // screens greater than >= 1024px
         breakpoint: 1024,
         settings: {
-          slidesToShow: 5.5,
+          slidesToShow: 3.5,
           slidesToScroll: 1,
           itemWidth: 150,
           duration: 0.25
         }
+      },
+	{
+        // screens greater than >= 250px
+        breakpoint: 250,
+        settings: {
+          // Set to `auto` and provide item width to adjust to viewport
+          slidesToShow: 'auto',
+          slidesToScroll: 'auto',
+          itemWidth: 150,
+          duration: 0.25,
+          slidesToShow: 1.2
+        }
+      },
+	{
+        // screens greater than >= 400px
+        breakpoint: 400,
+        settings: {
+          // Set to `auto` and provide item width to adjust to viewport
+          slidesToShow: 'auto',
+          slidesToScroll: 'auto',
+          itemWidth: 150,
+          duration: 0.25,
+          slidesToShow: 1.5
+        }
       }
+	
     ]
   });
 
@@ -74,7 +99,6 @@ const nav_bg_image=document.querySelector('.nav-bg img');
     
     el.addEventListener('mouseleave',(e)=>{
       nav_bg_image.style.opacity=0;
-      nav_bg_image.src=``;	
       el.style.color='rgba(245, 245, 245, 0.85)';
     })
   
@@ -96,6 +120,7 @@ function closenav(){
 }
 
 /* --------------------------------------------------- */
+
 
 let preloader = document.getElementById("loading");
 		// window.addEventListener('load', function(){
