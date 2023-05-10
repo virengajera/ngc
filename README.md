@@ -1,4 +1,4 @@
-# [National Geographic clone](https://virengajera.github.io/ngc/)
+# [National Geographic clone](NGC)
 
 Project Link : https://virengajera.github.io/ngc/
 
